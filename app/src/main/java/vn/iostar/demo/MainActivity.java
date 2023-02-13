@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
         int a = 1;
         int b = 2;
         int c = tinhTong(a,b);
-        // System.out.println("Tổng a + b = " + c);
+        System.out.println("Tổng a + b = " + c);
 
         Log.d("tag", "Tổng a + b = " + c);
 
-//        int d = a - b;
-//        System.out.println("Hiệu của a - b = " + d);
+        int d = a - b;
+        System.out.println("Hiệu của a - b = " + d);
 
     }
 
